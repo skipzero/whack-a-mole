@@ -16,13 +16,13 @@ a, a:hover, a:focus {
 }
 
 .mask {
-  bottom:-10px;
+  border-radius: 0 0 90px 90px;
+  bottom:3px;
   left:70px;
   position: absolute;
+  overflow: hidden;
   width: 250px;
   height: 500px;
-  -webkit-clip-path: circle(60% at 50% 50%);
-  clip-path: circle(60% at 50% 50%);
 }
 
 .creeper {
@@ -33,6 +33,10 @@ a, a:hover, a:focus {
   width:160px;
 }
 
+.up {
+  bottom: -30px;
+  
+}
 
 
 
@@ -43,8 +47,8 @@ a, a:hover, a:focus {
 }
 
 .board {
-	width: 625px;
-	margin: 0 0 20px 300PX;
+  width: 625px;
+  margin: 0 0 20px 300PX;
   padding:10px;
   border-radius: 25px;
   background: #D1E0F0;
@@ -74,7 +78,7 @@ a, a:hover, a:focus {
 }
 
 .light.on span {
-	background: radial-gradient(circle, #80B7F2 20%, #999 70%);
+  background: radial-gradient(circle, #80B7F2 20%, #999 70%);
 }
 
 .messages {
@@ -110,14 +114,14 @@ a, a:hover, a:focus {
 
 .instructions-hide {
   display: block;
-	max-height:0px;
-	transition: max-height .5s ease-out;
+  max-height:0px;
+  transition: max-height .5s ease-out;
 }
 
 .instructions-show {
   display: block;
-	max-height:600px;
-	transition: max-height .5s ease-in;
+  max-height:600px;
+  transition: max-height .5s ease-in;
 }
 
 
