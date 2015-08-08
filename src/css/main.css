@@ -6,6 +6,37 @@ a, a:hover, a:focus {
   margin-top: 20px;
 }
 
+.hole {
+  background-color: #80C5A0;
+  width: 400px;
+  height: 200px;
+  margin: 100px auto 0px;
+  position: relative;
+  border-radius: 200px / 100px;
+}
+
+.mask {
+  bottom:-10px;
+  left:70px;
+  position: absolute;
+  width: 250px;
+  height: 500px;
+  -webkit-clip-path: circle(60% at 50% 50%);
+  clip-path: circle(60% at 50% 50%);
+}
+
+.creeper {
+  bottom:-30px;
+  left:30px;
+  position: absolute;
+  height:360px;
+  width:160px;
+}
+
+
+
+
+/*
 .row {
   padding: 0;
   margin: 0;
@@ -56,7 +87,7 @@ a, a:hover, a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0 auto;
-  width: 220px;
+  width: 310px;
 }
 
 .messages a {
@@ -92,3 +123,4 @@ a, a:hover, a:focus {
 
 
 
+*/
